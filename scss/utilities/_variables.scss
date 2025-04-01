@@ -1,0 +1,38 @@
+//Font Families
+$font-base: 'Lato', sans-serif;
+
+//Colors
+$color-text: #777;
+$color-primary: #58e1c1;
+$color-accent: #51ddfc;
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-success: #63cc82;
+$color-warning: #fd7856;
+
+//Media Queries
+$break-md: 768px;
+
+//Theme Colors
+$themes: (
+	'1': $color-info,
+	'2': $color-warning,
+	'3': #deb2ee,
+	'4': #7ee6fd,
+	'5': #88d9a0,
+	'6': #4da2bb,
+	'7': #ec9fa3,
+	'8': #fd9f85,
+	'9': $color-error,
+	'10': $color-success,
+	'11': $color-accent,
+	'12': #80e8d1,
+);
+
+$buttons: (
+	'default': $color-accent,
+	'error': $color-error,
+	'info': $color-info,
+	'success': $color-success,
+	'warning': $color-warning,
+);
